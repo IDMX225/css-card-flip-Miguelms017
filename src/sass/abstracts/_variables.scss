@@ -1,6 +1,7 @@
 /* variables */
 
 @use "./functions" as func;
+@use "./../base/typography";
 
 $bg-color: gold;
 $bg-very-light: func.tint($bg-color, 50%);
@@ -16,3 +17,9 @@ $primary-light: func.tint($primary-color, 25%);
 $primary-medium: $primary-color;
 $primary-dark: func.shade($primary-color, 25%);
 $primary-very-dark: func.shade($primary-color, 50%);
+
+:root{
+    --ff-Title: "EA05_Tit", sans-serif;
+    --ff-body: "EduVic", sans-serif;
+    --ff-heading: "Fugaz One", sans-serif;
+}

@@ -1,16 +1,16 @@
 /* typography */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: "EA05_Tit";
+    src: url(../../fonts/EA05_Tit.ttf) format('truetype');
+}
 
-$font: "Poppins", serif;
+@font-face {
+    font-family: "EduVIC";
+    src: url(../../fonts/EduVICWANTBeginner-VariableFont_wght.ttf) format('truetype');
+}
 
-// body font styling vars
-$body-font-size: 120%;
-$body-font-weight: 350;
-$body-italic-weight: 100;
-
-// display font styling vars
-$display-font: $font;
-$display-weight: 900;
-$display-spacing: 0.15em;
-$display-title-size: 4rem;
+@font-face {
+    font-family: "Fugaz One";
+    src: url(../../fonts/FugazOne-Regular.ttf) format('truetype');
+}
